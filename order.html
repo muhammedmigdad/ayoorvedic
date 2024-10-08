@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top-shelf</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!--header-->
+    <header class="">
+        <div class="px-[5%] flex justify-between items-center mt-[20px]  border-b-[1px] pb-[10px] ">
+            <i class='bx bx-menu  lg:hidden' id="mobile-menu"></i>
+            <div  class="items-center hidden bg-[#000] " id="mobile-drop">
+                <ul class=" text-[#BFBFBF]  border px-[18px] py-[5px] border-[#232222] rounded-[10px] flex-wrap">
+                    <li>Shop All</li>
+                    <li class="flex items-center">Flower<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                    <li>Edibles</li>
+                    <li class="flex items-center">Concentrates<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                    <li>Mushrooms</li>
+                    <li class="flex items-center">Promotions/Bundles<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                    <li class="flex items-center">Support<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                    <li>Rewards</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <img class="w-[100px]" src="./image/Medicine.png" alt="image">
+                <h1 class="w-[25px] font-[500] mr-[20px]">AYURVEDIC</h1>
+            </div>
+            <div class=" hidden lg:flex">
+                <input class="border-[1px] rounded-3xl pl-[10px] outline-none px-[30px] mr-[5px]" type="text" placeholder="search">
+                <img class="bg-[#17AF26] py-[10px] px-[10px] rounded-full" src="./image/Shopping (Community) (22)/Product Page/Button.png" alt="image">
+            </div>
+            <div class="flex">
+                <h3 class=" ml-[10px] lg:ml-[30px]">Your Account</h3>
+                <div class="border-l-[2px] h-[10px] mt-[6px] ml-[10px]"></div>
+                <img class="h-[20px] ml-[20px]" src="./image/Shopping (Community) (21)/Product Page/vuesax/linear/bag-2.png" alt="image">
+            </div>
+        </div>
+        <div class="flex mt-[15px] lg:hidden">
+            <input class="border-[1px] rounded-3xl pl-[10px] outline-none px-[180px] sm:px-[370px] sm:pl-[10px] md:px-[540px] md:pl-[10px] mr-[5px]" type="text" placeholder="search">
+            <img class="bg-[#17AF26] py-[10px] px-[10px] rounded-full" src="./image/Shopping (Community) (22)/Product Page/Button.png" alt="image">
+        </div>
+        <div class="px-[13%] pt-[10px]">
+            <ul class=" hidden lg:flex justify-between">
+                <li>Shop All</li>
+                <li class="flex items-center">Flower<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                <li>Edibles</li>
+                <li class="flex items-center">Concentrates<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                <li>Mushrooms</li>
+                <li class="flex items-center">Promotions/Bundles<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                <li class="flex items-center">Support<img class="pt-[5px] ml-[5px]" src="./image/Shopping (Community) (20)/Product Page/Arrow.png" alt="image"></li>
+                <li>Rewards</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="bg-[#F4F4F4] mt-[20px]">
+            <div class=" flex justify-start md:justify-center py-[30px]">
+                <ul class="flex items-center mr-[30px]">
+                    <img src="./image/Shopping (Community) (23)/Product Page/Icon.png" alt="image">
+                    <h1 class="text-[#060709] text-[16px] md:text-[19px] font-[500] ml-[12px]">Shopping Cart</h1>
+                    <ul class="border-[2px] rotate-0 w-[40px]  md:w-[100px] ml-[20px] "></ul>
+                </ul>
+                <ul class="flex items-center mr-[30px]">
+                    <img src="./image/Shopping (Community) (24)/Product Page/Icon.png" alt="image">
+                    <h1 class="text-[#717378] hidden md:flex md:text-[19px] font-[500] ml-[12px]">Checkout</h1>
+                    <ul class="border-[2px] rotate-0 w-[40px]  md:w-[100px] ml-[20px] "></ul>
+                </ul>
+                <ul class="flex items-center mr-[30px]">
+                    <img src="./image/Shopping (Community) (25)/Product Page/Icon.png" alt="image">
+                    <h1 class="text-[#717378] hidden md:flex md:text-[19px] font-[500] ml-[12px]">Order Complete</h1>   
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Your Order-->
+    <section>
+        <section class="wrapper">
+           <div class="flex justify-between">
+            <h1 class="text-[19px] font-[500]">Your Order</h1>
+            <ul class="flex items-center">
+                <img src="./image/Shopping (Community) (26)/Product Page/vuesax/bold/tick-circle.png" alt="image">
+                <p class="text-[#17AF26] ml-[5px] text-[16px] font-[500]">Paid</p>
+            </ul>
+           </div>
+           <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+           <div class="flex justify-between mt-[90px]">
+            <ul class="flex items-center">
+                <img class="w-[100px]" src="./image/Medicine.png" alt="image">
+                <h1 class="text-[#9D9EA2] ml-[15px] text-[18px] font-[500]">1x Khalifa Kush (AAAA)</h1>
+            </ul>
+            <ul class="flex justify-between">
+                <li class="text-[16px] font-[500]">2x</li>
+                <li class="text-[#9D9EA2] ml-[10px] text-[16px] font-[500]">$120.00</li>
+            </ul>
+            <p class="text-[#9D9EA2] text-[16px] font-[500]">$240.00</p>
+           </div>
+           <div>
+            <div class="flex justify-between pl-[55px]">
+                <h1 class="text-[#9D9EA2] text-[18px] font-[500]">Add Integra Pack - 4g</h1>
+                <ul class="flex justify-between">
+                    <li class="text-[16px] font-[500]">1x</li>
+                    <li class="text-[#9D9EA2] ml-[10px] text-[16px] font-[500]">$2.00</li>
+                </ul>
+                <p class="text-[#9D9EA2] text-[16px] font-[500]">$2.00</p>
+               </div>
+               <div class="flex justify-between pl-[55px] mt-[20px]">
+                <h1 class="text-[#9D9EA2] text-[18px] font-[500]">Add Integra Pack - 8g</h1>
+                <ul class="flex justify-between">
+                    <li class="text-[16px] font-[500]">1x</li>
+                    <li class="text-[#9D9EA2] ml-[10px] text-[16px] font-[500]">$3.00</li>
+                </ul>
+                <p class="text-[#9D9EA2] text-[16px] font-[500]">$3.00</p>
+               </div>
+               <ul class="flex justify-between  pl-[55px] mt-[20px]">
+                <h1 class="text-[#9D9EA2] text-[16px] font-[500]">Subtotal</h1>
+                <p class="text-[16px] font-[500]">$245.00</p>
+               </ul>
+           </div>
+           <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+           <div class="flex justify-between mt-[20px]">
+            <ul class="flex items-center">
+                <img class="w-[100px]" src="./image/Pudina Satva _ayurvedic.jpg" alt="image">
+                <h1 class="text-[#9D9EA2] ml-[15px] text-[18px] font-[500]">1x Jungle Diamond (AA+)</h1>
+            </ul>
+            <ul class="flex justify-between items-center">
+                <li class="text-[16px] font-[500]">1x</li>
+                <li class="text-[#9D9EA2] ml-[10px] text-[16px] font-[500]">$200.00</li>
+            </ul>
+            <p class="text-[#9D9EA2] text-[16px] font-[500] flex items-center">$200.00</p>
+           </div>
+           <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+           <div class="flex justify-between mt-[20px]">
+            <ul class="flex items-center">
+                <img class="w-[100px]" src="./image/pudina.webp" alt="image">
+                <h1 class="text-[#9D9EA2] ml-[15px] text-[18px] font-[500]">Shipwreck Edibles Gummy</h1>
+            </ul>
+            <ul class="flex justify-between ic">
+                <li class="text-[16px] font-[500]">4x</li>
+                <li class="text-[#9D9EA2] ml-[10px] text-[16px] font-[500]">$13.00</li>
+            </ul>
+            <p class="text-[#9D9EA2] text-[16px] font-[500] ">$52.00</p>
+           </div>
+           <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+           <ul  class="flex justify-between mt-[20px]">
+            <h1 class=" ml-[10px] text-[16px] font-[500]">TOTAL</h1>
+            <p class="text-[#EB2606] text-[22px] font-[500]">$497.00</p>
+           </ul>
+           <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+      <footer class=" flex-wrap lg:flex justify-between">
+        <div class="left w-full lg:w-[48%]">
+            <ul class="flex justify-between mt-[12px]">
+                <li class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Shipping</li>
+                <li  class=" text-[15px]  sm:text-[18px] font-[500]">New York, US</li>
+            </ul>
+            <ul class="flex justify-between mt-[12px]">
+                <li  class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Shipping Options</li>
+                <li class=" text-[15px]  sm:text-[18px] font-[500]">Same-Day Dispatching</li>
+            </ul>
+            <ul class="flex justify-between mt-[12px]">
+                <li  class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Email Money Transfer</li>
+                <li class=" text-[15px]  sm:text-[18px] font-[500]">Interac</li>
+            </ul>
+        </div>
+        <div class="right w-full lg:w-[48%]">
+            <ul class="flex justify-between mt-[12px]">
+                <li  class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Subtotal</li>
+                <li  class=" text-[15px]  sm:text-[18px] font-[500]">$497.00</li>
+            </ul>
+            <ul class="flex justify-between mt-[12px]">
+                <li  class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Discount</li>
+                <li  class=" text-[15px]  sm:text-[18px] font-[500]">$0.0</li>
+            </ul>
+            <ul class="flex justify-between mt-[12px]">
+                <li  class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Shipping Costs</li>
+                <li  class=" text-[15px]  sm:text-[18px] font-[500]">$50.00</li>
+            </ul>
+            <ul class="flex justify-between mt-[12px]">
+                <li  class="text-[#9D9EA2] text-[15px]  sm:text-[18px] font-[500]">Point</li>
+                <li  class=" text-[15px]  sm:text-[18px] font-[500]">- $250</li>
+            </ul>
+            <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+            <ul  class="flex justify-between mt-[20px]">
+             <h1 class=" ml-[10px] text-[16px] font-[500]">TOTAL</h1>
+             <p class="text-[#EB2606] text-[22px] font-[500]">$297.00</p>
+            </ul>
+        </div>
+      </footer>
+      <ul class="border-[1px] rotate-0 w-[100%] mt-[30px] text-[#F4F4F4] mb-[30px]"></ul>
+        <div class=" text-center">
+                <h1  class="text-[#9D9EA2] text-[18px] font-[500]">New Order, Click button bellow</h1>
+                <ul class="flex justify-center">
+                    <li class="border py-[20px] px-[45px] border-[#17AF26] rounded-[30px]  text-[#fff] text-[18px] font-[500] mb-[30px]  mt-[10px] bg-[#17AF26] ">Shop Now</li>
+                </ul>
+        </div>
+        </section>
+    </section>
+    <script src="https://cdnjs.cloudfla re.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
